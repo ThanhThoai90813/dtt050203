@@ -1,0 +1,34 @@
+/* Quy tắc 1: Tạo kiểu cho tiêu đề bằng màu nền */
+h1 {
+    background-color: #3498db; /* Màu nền tiêu đề */
+    color: white; /* Màu chữ tiêu đề */
+    padding: 10px; /* Khoảng cách giữa nền và chữ */
+}
+
+/* Quy tắc 2: Căn giữa và đổi màu phông chữ cho h1 */
+h1 {
+    text-align: center; /* Căn giữa tiêu đề */
+    font-family: Arial, sans-serif; /* Máy chữ mới cho tiêu đề */
+}
+
+/* Quy tắc 3: Đổi màu phông chữ cho h2 */
+h2 {
+    font-family: Arial, sans-serif; /* Máy chữ mới cho h2 */
+}
+
+/* Quy tắc 4: Đổi màu nền cho phần tử có class "right" */
+.right {
+    background-color: #f1c40f; /* Màu nền mới cho phần tử có class "right" */
+}
+
+/* Quy tắc 5: Đổi màu chữ và màu nền cho các liên kết */
+a {
+    color: #e74c3c; /* Màu chữ cho liên kết */
+    background-color: #f9ebae; /* Màu nền cho liên kết */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của liên kết */
+}
+
+/* Quy tắc 6: Ẩn hình ảnh trên trang */
+img {
+    display: none; /* Ẩn hình ảnh */
+}
